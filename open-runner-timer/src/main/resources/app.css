@@ -1,0 +1,83 @@
+/* Toolbar Icon */
+
+#connect {
+	-fx-graphic: url('images/connect-48.png');
+	 -fx-border-style: none;	 
+}
+
+
+
+#ok {
+	-fx-graphic: url('images/ok.gif');
+	-fx-border-style: none;
+}
+
+
+#cancel {
+	-fx-graphic: url('images/cancel.gif');
+	-fx-border-style: none;
+}
+
+.pending {
+	-fx-background-color: orange;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-padding: 5px;
+	-fx-border-insets: 5px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold
+}
+
+.executed {
+	-fx-background-color: #0ed145;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-padding: 5px;
+	-fx-border-insets: 5px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold
+}
+
+.step-failed {
+	-fx-background-color: red;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-padding: 5px;
+	-fx-border-insets: 5px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold
+}
+
+.step-passed {
+	-fx-background-color: #0ed145;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-padding: 5px;
+	-fx-border-insets: 5px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold
+}
+
+.step-qualified {
+	-fx-background-color: orange;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-padding: 5px;
+	-fx-border-insets: 5px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold
+}
+
+.no-result {
+	-fx-background-color: #e1e5e2;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-radius: 10 10 10 10;
+	-fx-padding: 5px;
+	-fx-border-insets: 5px;
+	-fx-text-fill: white;
+	-fx-font-weight: bold
+}
+
+
+
+

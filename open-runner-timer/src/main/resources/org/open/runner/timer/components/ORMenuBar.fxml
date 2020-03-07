@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1"> 
+<MenuBar  >
+  <menus>
+    <Menu mnemonicParsing="false" text="File">
+      <items>
+        <MenuItem fx:id="mnuFileOpen" mnemonicParsing="false" text="Open" />
+        <MenuItem fx:id="mnuFileExit" mnemonicParsing="false" text="Exit" />
+      </items>
+    </Menu>   
+    <Menu mnemonicParsing="false" text="Manage">
+      <items>
+        <MenuItem fx:id="mnuAdminCompany" mnemonicParsing="false" text="Company" />
+        <MenuItem fx:id="mnuAdminContract" mnemonicParsing="false" text="Contract" />
+        <MenuItem fx:id="mnuAdminProject" mnemonicParsing="false" text="Project" />
+        <MenuItem fx:id="mnuAdminInvoice" mnemonicParsing="false" text="Invoice" />
+      </items>
+    </Menu>  
+  </menus>
+</MenuBar>
+</fx:root>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import org.open.runner.timer.components.ORToolBar?>
+
+
+<fx:root type="javafx.scene.layout.VBox" minHeight="600.0" minWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>       
+      <ORToolBar fx:id="toolBar" />    
+	  <AnchorPane fx:id="content" VBox.vgrow="ALWAYS" />
+   	 </children>
+</fx:root>
