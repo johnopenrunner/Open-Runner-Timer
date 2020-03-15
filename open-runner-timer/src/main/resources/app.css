@@ -1,11 +1,37 @@
 /* Toolbar Icon */
 
-#connect {
-	-fx-graphic: url('images/connect-48.png');
-	 -fx-border-style: none;	 
+/* #connect {
+	-fx-graphic: url('images/connect-empty.png');
+	-fx-border-style: none;	 	 
+} */ */
+
+.events {
+	-fx-graphic: url('images/events-48.png');
+	 -fx-border-style: none;
+	  	 	 
 }
 
+.tags {
+	-fx-graphic: url('images/tags-48.png');
+	 -fx-border-style: none;	 
+	 
+}
 
+.races {
+	-fx-graphic: url('images/tags-48.png');
+	 -fx-border-style: none;	 
+ 	 
+}
+.raceResults {
+	-fx-graphic: url('images/list32.gif');
+	 -fx-border-style: none;	 
+ 	 
+}
+.events {
+	-fx-graphic: url('images/tags-48.png');
+	 -fx-border-style: none;	 
+ 	 
+}
 
 #ok {
 	-fx-graphic: url('images/ok.gif');
@@ -16,6 +42,18 @@
 #cancel {
 	-fx-graphic: url('images/cancel.gif');
 	-fx-border-style: none;
+}
+
+
+/* RFID Connection Status */
+.connected {
+	-fx-graphic: url('images/connected.png');
+	-fx-border-style: none;	 	 
+}
+
+.disconnected {
+	-fx-graphic: url('images/disconnected.png');
+	-fx-border-style: none;	 	 
 }
 
 .pending {

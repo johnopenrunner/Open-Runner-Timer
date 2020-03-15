@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+
+<fx:root type="javafx.scene.layout.HBox" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"> 
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="48.0" minWidth="-Infinity" prefHeight="48.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="antenna1" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+            <HBox.margin>
+               <Insets bottom="8.0" left="8.0" top="8.0" />
+            </HBox.margin></ImageView>
+      <ImageView fx:id="antenna2" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+            <HBox.margin>
+               <Insets bottom="8.0" top="8.0" />
+            </HBox.margin></ImageView>
+      <ImageView fx:id="antenna3" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+            <HBox.margin>
+               <Insets bottom="8.0" top="8.0" />
+            </HBox.margin></ImageView>
+      <ImageView fx:id="antenna4" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+            <HBox.margin>
+               <Insets bottom="8.0" right="8.0" top="8.0" />
+            </HBox.margin></ImageView>
+   </children>
+</HBox>
+</fx:root>

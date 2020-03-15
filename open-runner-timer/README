@@ -1,0 +1,8 @@
+Add zebra dependency to repo
+
+mvn install:install-file -DgroupId=zebra -DartifactId=rfid-api -Dversion=3.0 -Dpackaging=jar -Dfile="C:\Program Files\Zebra FXSeries Host Java SDK\RFID\bin\Symbol.RFID.API3.jar"
+
+
+Add to VM Arguments to run in eclipse
+
+--module-path C:\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib --add-modules=javafx.controls,javafx.fxml,javafx.graphics

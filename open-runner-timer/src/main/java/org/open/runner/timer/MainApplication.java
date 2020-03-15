@@ -4,26 +4,32 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
 public class MainApplication extends Application {
 
-	public static void main(final String [] args) {
-		Application.launch(args);		
-	}
-	
-	@Override
-	public void init() throws Exception {
-		
+	private MainController controller;
+
+	public static void main(final String[] args) {
+		Application.launch(args);
 	}
 
 	@Override
-	public void start(Stage primaryStage) throws Exception {	
-		primaryStage.setScene(new Scene(new MainController()));
+	public void init() throws Exception {
+		controller = new MainController();
+	}
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		Scene scene = new Scene(controller);
+		
+		scene.getStylesheets().add("app.css");
+
+		primaryStage.setScene(scene);
 		primaryStage.centerOnScreen();
 		primaryStage.show();
 	}
 
 	@Override
-	public void stop() throws Exception {	
+	public void stop() throws Exception {
+		controller.shutdown();		
 	}
 }

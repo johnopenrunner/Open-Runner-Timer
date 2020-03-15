@@ -5,11 +5,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>open-runner</groupId>
-	<artifactId>open-rfid-timer</artifactId>
+	<artifactId>open-runner-api</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Open Source Running Timer Application</name>
+	<name>Open Source Running Timer Application API</name>
 	<description>test</description>
 
 
@@ -26,13 +26,6 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.4.1.Final</version>
-			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
 			<version>${java.fx}</version>
@@ -44,17 +37,6 @@
 			<version>${java.fx}</version>
 			<classifier>win</classifier>
 		</dependency>
-
-		<!-- <dependency>
-			<groupId>org.openjfx</groupId>
-			<artifactId>javafx-graphics</artifactId>
-			<version>{java.fx}</version>
-			<classifier>win</classifier>
-		</dependency> -->
-		<!-- <dependency> <groupId>org.openjfx</groupId> <artifactId>javafx-graphics</artifactId> 
-			<version>13</version> <classifier>linux</classifier> </dependency> <dependency> 
-			<groupId>org.openjfx</groupId> <artifactId>javafx-graphics</artifactId> <version>13</version> 
-			<classifier>mac</classifier> </dependency> -->
 
 	</dependencies>
 
@@ -70,11 +52,6 @@
 			</plugins>
 		</pluginManagement>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

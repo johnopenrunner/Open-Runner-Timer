@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>open-runner</groupId>
-	<artifactId>open-rfid-timer</artifactId>
+	<artifactId>open-runner-timer</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -24,6 +24,18 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>zebra</groupId>
+			<artifactId>rfid-api</artifactId>
+			<version>3.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>open-runner</groupId>
+			<artifactId>open-runner-api</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -45,16 +57,20 @@
 			<classifier>win</classifier>
 		</dependency>
 
-		<!-- <dependency>
-			<groupId>org.openjfx</groupId>
-			<artifactId>javafx-graphics</artifactId>
-			<version>{java.fx}</version>
-			<classifier>win</classifier>
-		</dependency> -->
+
+		<!-- <dependency> <groupId>org.openjfx</groupId> <artifactId>javafx-graphics</artifactId> 
+			<version>{java.fx}</version> <classifier>win</classifier> </dependency> -->
 		<!-- <dependency> <groupId>org.openjfx</groupId> <artifactId>javafx-graphics</artifactId> 
 			<version>13</version> <classifier>linux</classifier> </dependency> <dependency> 
 			<groupId>org.openjfx</groupId> <artifactId>javafx-graphics</artifactId> <version>13</version> 
 			<classifier>mac</classifier> </dependency> -->
+
+		<!-- Test -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.5.2</version>
+		</dependency>
 
 	</dependencies>
 
