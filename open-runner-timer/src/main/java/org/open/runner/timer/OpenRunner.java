@@ -1,6 +1,4 @@
-package org.open;
-
-import org.open.runner.timer.MainApplication;
+package org.open.runner.timer;
 
 import javafx.application.Application;
 
