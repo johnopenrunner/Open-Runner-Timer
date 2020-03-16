@@ -8,10 +8,6 @@ public class MainApplication extends Application {
 
 	private MainController controller;
 
-	public static void main(final String[] args) {
-		Application.launch(args);
-	}
-
 	@Override
 	public void init() throws Exception {
 		controller = new MainController();

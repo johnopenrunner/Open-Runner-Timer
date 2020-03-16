@@ -9,3 +9,8 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+open-runner-api/.classpath
+open-runner-api/.settings/org.eclipse.jdt.apt.core.prefs
+open-runner-api/.settings/org.eclipse.jdt.core.prefs
+open-runner-timer/.classpath
+open-runner-timer/.project
